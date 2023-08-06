@@ -11,7 +11,7 @@ export default async function Logout() {
       <div className="px-2 w-full">
         <div className="flex flex-col min-h-screen items-center justify-center p-8 md:p-24">
           {/* Logo */}
-          <div className="text-xl font-bold mb-8">BOASTFULL</div>
+          <div className="text-xl font-bold mb-8">NextjsWithAuthTemplate</div>
           {/* ログインしている場合にはユーザー情報を表示する */}
           {session?.user && (
             <div className="mb-3">
