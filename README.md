@@ -3,8 +3,13 @@ Nextjs Starter Kit with Authentication Feature Implemented
 
 ## Getting Started
 ```bash
+# Copy env file
+cp .env.template .env
+
+# Start DB on local
 supabase start
 
+# Start service on local
 yarn dev
 ```
 
